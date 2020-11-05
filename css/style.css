@@ -26,3 +26,12 @@ a, a.btn-link{
 a:hover, a.btn-link:hover{
     color: black;
 }
+
+@media screen and (max-width: 768px){
+    section.big-banner{
+        padding: 10rem 1rem;
+    }
+    h3.display-4{
+        font-size: 1.7rem;
+    }
+}
